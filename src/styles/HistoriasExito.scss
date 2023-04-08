@@ -1,0 +1,30 @@
+.success-stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  .titHistorias{
+    text-align: center;
+  }
+  
+  .success-story {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .success-story img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .success-story {
+      width: 100%;
+    }
+  }
+  
