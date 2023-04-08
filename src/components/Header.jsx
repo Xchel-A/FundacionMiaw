@@ -40,7 +40,7 @@ import AppContext from '../context/AppContext';
         <li><a href="/">Inicio</a></li>
           <li><a href="/Adopcion">Adopcion</a></li>
           
-          <li><a href="/mascotasperdidas">Perros perdidos</a></li>
+          <li><a href="/mascotasperdidas">Se busca</a></li>
           <li><a href="/historiasexito">Historas</a></li>
           <li><a href="/eventos">Eventos</a></li>
           
