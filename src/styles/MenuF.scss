@@ -1,58 +1,66 @@
-/* Estilos para el contenedor principal */
-.MenuF {
+@import 'vars';
+.MenuF{
   background-color: var(--blancoobscuro);
   border-radius: 5px;
-  overflow: auto;
   max-height: 400px;
+  overflow: auto;
 }
 
-/* Estilos para cada tarjeta de producto */
 .MenuF .card {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  width: 100%;
-}
-
-/* Estilos para la imagen del producto */
-.MenuF .card .card-img {
-  margin-bottom: 10px;
-  width: 100%;
-  max-width: 200px;
-}
-
-/* Estilos para el título del producto */
-.card-title {
-  font-size: 18px;
-  margin: 0 0 5px;
-}
-
-/* Estilos para la descripción del producto */
-.card-description {
-  font-size: 14px;
-  margin: 0 0 10px;
-}
-
-/* Estilos para el precio del producto */
-.card-price {
-  font-size: 14px;
-  font-weight: bold;
-  margin: 0 0 5px auto;
-  text-align: right;
-}
-
-.card-currency {
-  margin-right: 5px;
-}
-
-.card-amount {
-  font-size: 18px;
-  font-weight: bold;
-}
-
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    
+  }
+  
+  .MenuF .card  .card-img {
+    margin-right: 10px;
+     width: 200px;
+  }
+  
+  .card-img img {
+    max-width: 100%;
+    
+   
+    border-radius: 25px;
+  }
+  
+  .card-body {
+    flex: 1;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .card-price {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .card-currency {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .card-amount {
+    font-size: 18px;
+    font-weight: bold;
+  }
 /* Media query para pantallas pequeñas */
 @media screen and (max-width: 767px) {
   /* Cambiar la dirección de los elementos */
